@@ -4,7 +4,8 @@
   "description": "",
   "main": "hello-world.js",
   "scripts": {
-    "test": "echo \"Free test pass\" && exit 0"
+    "test": "mocha",
+    "watch-test": "mocha -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/martypdx/install-node-1/issues"
   },
-  "homepage": "https://github.com/martypdx/install-node-1#readme"
+  "homepage": "https://github.com/martypdx/install-node-1#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
 }
