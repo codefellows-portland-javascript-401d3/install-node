@@ -1,0 +1,23 @@
+{
+  "name": "install-node-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "mocha",
+    "watch-test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martypdx/install-node-1.git"
+  },
+  "author": "Marty Nelson <marty@martypdx.com> (@martypdx)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martypdx/install-node-1/issues"
+  },
+  "homepage": "https://github.com/martypdx/install-node-1#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
